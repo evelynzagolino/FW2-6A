@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import Menu from "./modulos/navbar";
 import Footer from "./modulos/footer";
+import Table from 'react-bootstrap/Table';
 
 export default function Pesportes() {
     return <>
@@ -10,7 +11,40 @@ export default function Pesportes() {
                 Lista de Produtos de Esportes
             </Container>
             <Container>
-                Os Produtos
+                <Table striped bordered hover size="sm">
+                    <thead>
+                        <tr>
+                            <th>_ID</th>
+                            <th>Produto</th>
+                            <th>Categoria</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </Table>
             </Container>
         </Container>
         <Footer />
